@@ -11,10 +11,19 @@ body {
   line-height: $line-height;
 }
 
+h1, h2, h3 {
+  font-family: $secondary-font;
+}
+
 h1 {
   color: $primary-color;
-  font-family: $secondary-font;
-  font-size: 36px;
+  font-size: $h1-size;
+  line-height: $h1-line-height;
+}
+
+h2 {
+  font-size: $h2-size;
+  line-height: $h2-line-height;
 }
 
 a, a:hover {

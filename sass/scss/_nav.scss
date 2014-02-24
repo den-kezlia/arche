@@ -9,8 +9,9 @@ nav {
   margin-top: - $main-cycle-size / 2;
   font-family: $secondary-font;
 
-  a.active {
+  a:hover {
     background: $primary-color;
+    @include transition($nav-transition);
   }
 
   .line {

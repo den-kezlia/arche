@@ -13,11 +13,11 @@
         },
 
         menuMouseOver: function() {
-            $(this).addClass('active');
+            //$(this).addClass('active');
         },
 
         menuMouseOut: function() {
-            $(this).removeClass('active');
+            //$(this).removeClass('active');
         },
 
         checkWindowSize: function() {

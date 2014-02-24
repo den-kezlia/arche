@@ -177,55 +177,61 @@ html, body { height: 100%; }
 body { padding: 15px 30px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; color: #272727; font-size: 18px; font-family: Helvetica, Arial, sans-serif; line-height: 24px; }
 
 /* line 14, ../sass/scss/_layout.scss */
-h1 { color: #008dde; font-family: "Bubbler One", sans-serif; font-size: 36px; }
+h1, h2, h3 { font-family: "Bubbler One", sans-serif; }
 
-/* line 20, ../sass/scss/_layout.scss */
+/* line 18, ../sass/scss/_layout.scss */
+h1 { color: #008dde; font-size: 36px; line-height: 48px; }
+
+/* line 24, ../sass/scss/_layout.scss */
+h2 { font-size: 24px; line-height: 36px; }
+
+/* line 29, ../sass/scss/_layout.scss */
 a, a:hover { color: white; text-decoration: none; }
 
-/* line 25, ../sass/scss/_layout.scss */
+/* line 34, ../sass/scss/_layout.scss */
 ul, li { margin: 0; padding: 0; list-style: none; }
 
-/* line 31, ../sass/scss/_layout.scss */
+/* line 40, ../sass/scss/_layout.scss */
 .page { height: 100%; margin: auto; position: relative; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
-/* line 38, ../sass/scss/_layout.scss */
+/* line 47, ../sass/scss/_layout.scss */
 .title { color: #008dde; font-family: "Bubbler One", sans-serif; font-size: 24px; margin-bottom: 20px; }
 
-/* line 45, ../sass/scss/_layout.scss */
+/* line 54, ../sass/scss/_layout.scss */
 .articles { position: absolute; height: 100%; width: 100%; }
 
 /* line 1, ../sass/scss/_nav.scss */
 nav { position: absolute; z-index: 100; width: 453.05315px; height: 280px; left: 50%; top: 50%; margin-left: -226.52658px; margin-top: -140px; font-family: "Bubbler One", sans-serif; }
 /* line 12, ../sass/scss/_nav.scss */
-nav a.active { background: #008dde; }
-/* line 16, ../sass/scss/_nav.scss */
-nav .line { height: 1px; width: 450px; background: #008dde; position: absolute; top: 140px; margin-left: 1.52658px; -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -o-transform: rotate(-45deg); transform: rotate(-45deg); }
+nav a:hover { background: #008dde; -webkit-transition: background 0.2s; -moz-transition: background 0.2s; -o-transition: background 0.2s; transition: background 0.2s; }
+/* line 17, ../sass/scss/_nav.scss */
+nav .line { height: 1px; width: 733.01872px; background: #008dde; position: absolute; top: 140px; margin-left: -139.98278px; -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -o-transform: rotate(-45deg); transform: rotate(-45deg); }
 
-/* line 27, ../sass/scss/_nav.scss */
+/* line 28, ../sass/scss/_nav.scss */
 .cycle { position: absolute; text-align: center; background: #272727; border: 3px solid #008dde; display: block; left: 50%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15); -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15); box-shadow: 0 0 5px rgba(0, 0, 0, 0.15); }
 
-/* line 38, ../sass/scss/_nav.scss */
+/* line 39, ../sass/scss/_nav.scss */
 .main-cycle { width: 280px; height: 280px; margin-left: -140px; -webkit-border-radius: 140px; -moz-border-radius: 140px; -ms-border-radius: 140px; -o-border-radius: 140px; border-radius: 140px; }
 
-/* line 45, ../sass/scss/_nav.scss */
+/* line 46, ../sass/scss/_nav.scss */
 .inner-cycle { width: 173.05315px; height: 173.05315px; margin-top: 53.47342px; margin-left: -86.52658px; background: white; font-size: 34px; line-height: 173.05315px; z-index: 1; border: none; -webkit-border-radius: 86.52658px; -moz-border-radius: 86.52658px; -ms-border-radius: 86.52658px; -o-border-radius: 86.52658px; border-radius: 86.52658px; }
 
-/* line 58, ../sass/scss/_nav.scss */
+/* line 59, ../sass/scss/_nav.scss */
 .left-cycle, .right-cycle { width: 173.05315px; height: 173.05315px; top: 53.47342px; line-height: 173.05315px; -webkit-border-radius: 86.52658px; -moz-border-radius: 86.52658px; -ms-border-radius: 86.52658px; -o-border-radius: 86.52658px; border-radius: 86.52658px; }
 
-/* line 67, ../sass/scss/_nav.scss */
+/* line 68, ../sass/scss/_nav.scss */
 .left-cycle { margin-left: -226.52658px; }
 
-/* line 71, ../sass/scss/_nav.scss */
+/* line 72, ../sass/scss/_nav.scss */
 .right-cycle { margin-left: 53.47342px; }
 
-/* line 75, ../sass/scss/_nav.scss */
+/* line 76, ../sass/scss/_nav.scss */
 .center-button { background: #008dde; height: 140px; width: 280px; left: 50%; margin-left: -140px; text-align: center; display: block; background: #272727; border: 3px solid #008dde; position: absolute; -webkit-border-radius: 140px 140px 0 0; -moz-border-radius: 140px 140px 0 0; -ms-border-radius: 140px 140px 0 0; -o-border-radius: 140px 140px 0 0; border-radius: 140px 140px 0 0; }
-/* line 88, ../sass/scss/_nav.scss */
+/* line 89, ../sass/scss/_nav.scss */
 .center-button span { display: block; margin-top: 15px; }
-/* line 93, ../sass/scss/_nav.scss */
+/* line 94, ../sass/scss/_nav.scss */
 .center-button.prices { top: 140px; -webkit-border-radius: 0 0 140px 140px; -moz-border-radius: 0 0 140px 140px; -ms-border-radius: 0 0 140px 140px; -o-border-radius: 0 0 140px 140px; border-radius: 0 0 140px 140px; }
-/* line 97, ../sass/scss/_nav.scss */
+/* line 98, ../sass/scss/_nav.scss */
 .center-button.prices span { margin-top: 100px; }
 
 /* line 1, ../sass/scss/_logo.scss */
@@ -246,7 +252,9 @@ div.logo a { display: block; width: 73px; height: 73px; background: #008dde; tex
 
 /* Pages */
 /* line 2, ../sass/scss/pages/_home.scss */
-article.home h1 { text-align: center; margin-top: 50px; }
+article.home h1 { text-align: center; margin-top: 38px; }
+/* line 7, ../sass/scss/pages/_home.scss */
+article.home h2 { text-align: center; margin-top: 30px; }
 
 /* line 1, ../sass/scss/pages/_about.scss */
 article.about { height: 100%; display: none; }
@@ -303,7 +311,7 @@ article.services ul a { color: #272727; }
   /* line 24, ../sass/scss/tablet/_nav.scss */
   nav a.active { background: #008dde; }
   /* line 28, ../sass/scss/tablet/_nav.scss */
-  nav .line { height: 1px; width: 450px; background: #008dde; position: absolute; top: 140px; margin-left: 1.52658px; -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -o-transform: rotate(-45deg); transform: rotate(-45deg); }
+  nav .line { height: 1px; width: 733.01872px; background: #008dde; position: absolute; top: 140px; margin-left: -139.98278px; -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -o-transform: rotate(-45deg); transform: rotate(-45deg); }
   /* line 39, ../sass/scss/tablet/_nav.scss */
   .cycle { position: absolute; text-align: center; background: #272727; border: 3px solid #008dde; display: block; left: 50%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15); -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15); box-shadow: 0 0 5px rgba(0, 0, 0, 0.15); }
   /* line 50, ../sass/scss/tablet/_nav.scss */

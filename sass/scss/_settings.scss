@@ -6,13 +6,18 @@ $primary-color: #008dde;
 $secondary-color: #272727;
 $third-color: #fff;
 
+$box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+
 /* Fonts */
 $font-size: 18px;
 $line-height: 24px;
 $primary-font: Helvetica, Arial, sans-serif;
 $secondary-font: 'Bubbler One', sans-serif;
+$h1-size: 36px;
+$h1-line-height: 48px;
+$h2-size: 24px;
+$h2-line-height: 36px;
 
-$box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 
 /* Layout */
 $page-padding: 15px;
@@ -26,7 +31,8 @@ $main-cycle-radius: $main-cycle-size / 2;
 $inner-cycle-size: $main-cycle-size / $gold;
 $sub-cycle-size: $main-cycle-size / $gold;
 $nav-size: $main-cycle-size + $sub-cycle-size;
-$line-width: 450px;
+$nav-transition: background 0.2s;
+$line-width: $main-cycle-size * $gold * $gold;
 
 /* Logo */
 $logo-size: 73px;
