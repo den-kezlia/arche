@@ -1,0 +1,50 @@
+/* Vars */
+$gold: 1.618;
+
+/* Colors */
+$primary-color: #008dde;
+$secondary-color: #272727;
+$third-color: #fff;
+
+/* Fonts */
+$font-size: 18px;
+$line-height: 24px;
+$primary-font: Helvetica, Arial, sans-serif;
+$secondary-font: 'Bubbler One', sans-serif;
+
+$box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+
+/* Layout */
+$page-padding: 15px;
+$title-font-size: 24px;
+
+/* Menu */
+$cycle-border: 3px;
+$main-cycle-size: 280px;
+$main-cycle-font-size: 34px;
+$main-cycle-radius: $main-cycle-size / 2;
+$inner-cycle-size: $main-cycle-size / $gold;
+$sub-cycle-size: $main-cycle-size / $gold;
+$nav-size: $main-cycle-size + $sub-cycle-size;
+$line-width: 450px;
+
+/* Logo */
+$logo-size: 73px;
+
+/* Lang */
+$lang-size: 45px;
+$lang-active-size: 73px;
+$lang-width: 90px;
+$lang-font-size: 14px;
+$lang-active-font-size: 18px;
+
+/* About */
+$about-contact-width: 380px;
+$about-contact-bottom: 30px;
+$about-mount-height: 221px;
+$about-tree-height: 143px;
+
+/* Services */
+$services-line-size: 500px;
+$services-cycle-size: 45px;
+$services-cycle-inner-size: $services-cycle-size / $gold;

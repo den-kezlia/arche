@@ -1,0 +1,58 @@
+article.about {
+  height: 100%;
+  display: none;
+
+  .about-top {
+    width: 60%;
+    margin: auto;
+  }
+
+  .about {
+    width: 270px;
+    position: absolute;
+    top: 150px;
+
+    &.den {
+      left: 0;
+    }
+
+    &.varley {
+      right: 0;
+    }
+  }
+
+  .contact {
+    width: $about-contact-width;
+    left: 50%;
+    margin-left: -$about-contact-width / 2;
+    position: absolute;
+    bottom: $about-contact-bottom;
+
+    .info {
+      margin-left: 20px;
+
+      .label {
+        color: $primary-color;
+        display: inline-block;
+        width: 80px;
+      }
+    }
+  }
+
+  .bottom {
+    position: absolute;
+    bottom: - $page-padding;
+
+    &.left {
+      left: - $page-padding * 2;
+      height: $about-mount-height;
+      overflow: hidden;
+    }
+
+    &.right {
+      right: - $page-padding * 2;;
+      height: $about-tree-height;
+      overflow: hidden;
+    }
+  }
+}

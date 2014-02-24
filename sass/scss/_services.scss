@@ -1,0 +1,102 @@
+article.services {
+  width: 100%;
+  display: none;
+
+  .read-more {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    display: block;
+    color: $primary-color;
+    font-family: $secondary-font;
+    font-size: 24px;
+    top: 30px;
+  }
+
+  .services-line {
+    z-index: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: - $services-line-size / 2;
+    margin-top: - $services-line-size / 2;
+    width: $services-line-size;
+    height: $services-line-size;
+    background: #fff;
+    border: 3px solid $secondary-color;
+    @include border-radius($services-line-size / 2);
+    @include box-sizing(border-box);
+  }
+
+  .services-line-hide {
+    z-index: 0;
+    height: $services-line-size / 2;
+    width: $services-line-size;
+    position: absolute;
+    background: #fff;
+    left: 50%;
+    top: 50%;
+    margin-left: - $services-line-size / 2;
+    @include box-sizing(border-box);
+  }
+
+  ul {
+    position: absolute;
+    z-index: 1;
+    display: block;
+    width: 650px;
+    height: 225px;
+    left: 50%;
+    top: 50%;
+    margin-left: -325px;
+    margin-top: -250px;
+
+    li {
+      position: absolute;
+      font-size: 18px;
+      font-family: $secondary-font;
+
+      .services-cycle {
+        position: absolute;
+      }
+
+      &.hosting {
+        left: 0;
+        bottom: 0;
+
+        .services-cycle {
+          left: 57px;
+          top: -10px;
+        }
+      }
+
+      a:hover {
+        .services-cycle span {
+          height: $services-cycle-inner-size;
+          width: $services-cycle-inner-size;
+          position: absolute;
+          background: #000;
+          left: 50%;
+          top: 50%;
+          margin-left: - $services-cycle-inner-size / 2;
+          margin-top: - $services-cycle-inner-size / 2;
+          @include border-radius($services-cycle-inner-size / 2);
+        }
+      }
+    }
+
+    .services-cycle {
+      width: $services-cycle-size;
+      height: $services-cycle-size;
+      display: block;
+      border: 3px solid $secondary-color;
+      background: #fff;
+      @include border-radius($services-cycle-size / 2);
+      @include box-sizing(border-box);
+    }
+
+    a {
+      color: $secondary-color;
+    }
+  }
+}

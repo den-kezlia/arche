@@ -1,0 +1,41 @@
+.lang {
+  position: absolute;
+  right: $page-padding;
+  height: $lang-active-size;
+  width: $lang-width;
+  font-family: $secondary-font;
+
+  li {
+    float: left;
+  }
+
+  a {
+    display: block;
+    position: absolute;
+    width: $lang-size;
+    height: $lang-size;
+    background: $primary-color;
+    text-align: center;
+    line-height: $lang-size;
+    font-size: $lang-font-size;
+    bottom: 0;
+    z-index: 1;
+    border: 1px solid $primary-color;
+    @include box-sizing(border-box);
+    @include border-radius($lang-size / 2);
+
+    &.active {
+      width: $lang-active-size;
+      height: $lang-active-size;
+      line-height: $lang-active-size;
+      font-size: $lang-active-font-size;
+      right: 0;
+      z-index: 0;
+      @include border-radius($lang-active-size / 2);
+    }
+
+    &:hover {
+      border-color: $third-color;
+    }
+  }
+}

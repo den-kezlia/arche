@@ -1,0 +1,15 @@
+div.logo {
+  position: absolute;
+
+  a {
+    display: block;
+    width: $logo-size;
+    height: $logo-size;
+    background: $primary-color;
+    text-align: center;
+    line-height: $logo-size;
+    font-family: $secondary-font;
+    font-size: 18px;
+    @include border-radius($logo-size / 2);
+  }
+}
