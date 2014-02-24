@@ -177,18 +177,21 @@ html, body { height: 100%; }
 body { padding: 15px 30px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; color: #272727; font-size: 18px; font-family: Helvetica, Arial, sans-serif; line-height: 24px; }
 
 /* line 14, ../sass/scss/_layout.scss */
+h1 { color: #008dde; font-family: "Bubbler One", sans-serif; font-size: 36px; }
+
+/* line 20, ../sass/scss/_layout.scss */
 a, a:hover { color: white; text-decoration: none; }
 
-/* line 19, ../sass/scss/_layout.scss */
+/* line 25, ../sass/scss/_layout.scss */
 ul, li { margin: 0; padding: 0; list-style: none; }
 
-/* line 25, ../sass/scss/_layout.scss */
+/* line 31, ../sass/scss/_layout.scss */
 .page { height: 100%; margin: auto; position: relative; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
-/* line 32, ../sass/scss/_layout.scss */
+/* line 38, ../sass/scss/_layout.scss */
 .title { color: #008dde; font-family: "Bubbler One", sans-serif; font-size: 24px; margin-bottom: 20px; }
 
-/* line 39, ../sass/scss/_layout.scss */
+/* line 45, ../sass/scss/_layout.scss */
 .articles { position: absolute; height: 100%; width: 100%; }
 
 /* line 1, ../sass/scss/_nav.scss */
@@ -242,52 +245,55 @@ div.logo a { display: block; width: 73px; height: 73px; background: #008dde; tex
 .lang a:hover { border-color: white; }
 
 /* Pages */
-/* line 1, ../sass/scss/_about.scss */
+/* line 2, ../sass/scss/pages/_home.scss */
+article.home h1 { text-align: center; margin-top: 50px; }
+
+/* line 1, ../sass/scss/pages/_about.scss */
 article.about { height: 100%; display: none; }
-/* line 5, ../sass/scss/_about.scss */
+/* line 5, ../sass/scss/pages/_about.scss */
 article.about .about-top { width: 60%; margin: auto; }
-/* line 10, ../sass/scss/_about.scss */
+/* line 10, ../sass/scss/pages/_about.scss */
 article.about .about { width: 270px; position: absolute; top: 150px; }
-/* line 15, ../sass/scss/_about.scss */
+/* line 15, ../sass/scss/pages/_about.scss */
 article.about .about.den { left: 0; }
-/* line 19, ../sass/scss/_about.scss */
+/* line 19, ../sass/scss/pages/_about.scss */
 article.about .about.varley { right: 0; }
-/* line 24, ../sass/scss/_about.scss */
+/* line 24, ../sass/scss/pages/_about.scss */
 article.about .contact { width: 380px; left: 50%; margin-left: -190px; position: absolute; bottom: 30px; }
-/* line 31, ../sass/scss/_about.scss */
+/* line 31, ../sass/scss/pages/_about.scss */
 article.about .contact .info { margin-left: 20px; }
-/* line 34, ../sass/scss/_about.scss */
+/* line 34, ../sass/scss/pages/_about.scss */
 article.about .contact .info .label { color: #008dde; display: inline-block; width: 80px; }
-/* line 42, ../sass/scss/_about.scss */
+/* line 42, ../sass/scss/pages/_about.scss */
 article.about .bottom { position: absolute; bottom: -15px; }
-/* line 46, ../sass/scss/_about.scss */
+/* line 46, ../sass/scss/pages/_about.scss */
 article.about .bottom.left { left: -30px; height: 221px; overflow: hidden; }
-/* line 52, ../sass/scss/_about.scss */
+/* line 52, ../sass/scss/pages/_about.scss */
 article.about .bottom.right { right: -30px; height: 143px; overflow: hidden; }
 
-/* line 1, ../sass/scss/_services.scss */
+/* line 1, ../sass/scss/pages/_services.scss */
 article.services { width: 100%; display: none; }
-/* line 5, ../sass/scss/_services.scss */
+/* line 5, ../sass/scss/pages/_services.scss */
 article.services .read-more { position: absolute; text-align: center; width: 100%; display: block; color: #008dde; font-family: "Bubbler One", sans-serif; font-size: 24px; top: 30px; }
-/* line 16, ../sass/scss/_services.scss */
+/* line 16, ../sass/scss/pages/_services.scss */
 article.services .services-line { z-index: 0; position: absolute; left: 50%; top: 50%; margin-left: -250px; margin-top: -250px; width: 500px; height: 500px; background: #fff; border: 3px solid #272727; -webkit-border-radius: 250px; -moz-border-radius: 250px; -ms-border-radius: 250px; -o-border-radius: 250px; border-radius: 250px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
-/* line 31, ../sass/scss/_services.scss */
+/* line 31, ../sass/scss/pages/_services.scss */
 article.services .services-line-hide { z-index: 0; height: 250px; width: 500px; position: absolute; background: #fff; left: 50%; top: 50%; margin-left: -250px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
-/* line 43, ../sass/scss/_services.scss */
+/* line 43, ../sass/scss/pages/_services.scss */
 article.services ul { position: absolute; z-index: 1; display: block; width: 650px; height: 225px; left: 50%; top: 50%; margin-left: -325px; margin-top: -250px; }
-/* line 54, ../sass/scss/_services.scss */
+/* line 54, ../sass/scss/pages/_services.scss */
 article.services ul li { position: absolute; font-size: 18px; font-family: "Bubbler One", sans-serif; }
-/* line 59, ../sass/scss/_services.scss */
+/* line 59, ../sass/scss/pages/_services.scss */
 article.services ul li .services-cycle { position: absolute; }
-/* line 63, ../sass/scss/_services.scss */
+/* line 63, ../sass/scss/pages/_services.scss */
 article.services ul li.hosting { left: 0; bottom: 0; }
-/* line 67, ../sass/scss/_services.scss */
+/* line 67, ../sass/scss/pages/_services.scss */
 article.services ul li.hosting .services-cycle { left: 57px; top: -10px; }
-/* line 74, ../sass/scss/_services.scss */
+/* line 74, ../sass/scss/pages/_services.scss */
 article.services ul li a:hover .services-cycle span { height: 27.81211px; width: 27.81211px; position: absolute; background: #000; left: 50%; top: 50%; margin-left: -13.90606px; margin-top: -13.90606px; -webkit-border-radius: 13.90606px; -moz-border-radius: 13.90606px; -ms-border-radius: 13.90606px; -o-border-radius: 13.90606px; border-radius: 13.90606px; }
-/* line 88, ../sass/scss/_services.scss */
+/* line 88, ../sass/scss/pages/_services.scss */
 article.services ul .services-cycle { width: 45px; height: 45px; display: block; border: 3px solid #272727; background: #fff; -webkit-border-radius: 22.5px; -moz-border-radius: 22.5px; -ms-border-radius: 22.5px; -o-border-radius: 22.5px; border-radius: 22.5px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
-/* line 98, ../sass/scss/_services.scss */
+/* line 98, ../sass/scss/pages/_services.scss */
 article.services ul a { color: #272727; }
 
 /* Tablet */

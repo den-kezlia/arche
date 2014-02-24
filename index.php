@@ -30,6 +30,7 @@
         </nav>
 
         <div class="articles">
+            <?php require_once('home.php') ?>
             <?php require_once('about.php') ?>
             <?php require_once('services.php') ?>
         </div>

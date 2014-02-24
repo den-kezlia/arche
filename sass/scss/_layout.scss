@@ -11,6 +11,12 @@ body {
   line-height: $line-height;
 }
 
+h1 {
+  color: $primary-color;
+  font-family: $secondary-font;
+  font-size: 36px;
+}
+
 a, a:hover {
   color: $third-color;
   text-decoration: none;

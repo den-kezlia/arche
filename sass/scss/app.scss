@@ -13,8 +13,9 @@
 @import "lang";
 
 /* Pages */
-@import "about";
-@import "services";
+@import "pages/home";
+@import "pages/about";
+@import "pages/services";
 
 /* Tablet */
 @import "tablet/nav";
