@@ -11,7 +11,7 @@ $box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 /* Fonts */
 $font-size: 18px;
 $line-height: 24px;
-$primary-font: Helvetica, Arial, sans-serif;
+$primary-font: "Georgia", serif;
 $secondary-font: 'Bubbler One', sans-serif;
 $h1-size: 36px;
 $h1-line-height: 48px;
@@ -33,6 +33,8 @@ $sub-cycle-size: $main-cycle-size / $gold;
 $nav-size: $main-cycle-size + $sub-cycle-size;
 $nav-transition: background 0.2s;
 $line-width: $main-cycle-size * $gold * $gold;
+$border-style: $cycle-border $primary-color solid;
+$underline-transition: text-decoration 0.2s;
 
 /* Logo */
 $logo-size: 73px;
@@ -54,3 +56,6 @@ $about-tree-height: 143px;
 $services-line-size: 500px;
 $services-cycle-size: 45px;
 $services-cycle-inner-size: $services-cycle-size / $gold;
+
+/* Works */
+$works-img-size: 73px;

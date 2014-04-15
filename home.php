@@ -1,4 +1,4 @@
-<article class="home">
+<article class="home active">
     <h1>Web Studio "Arche"</h1>
     <h2>
         It is a long established fact that a reader will <br/>

@@ -22,10 +22,10 @@
         <nav>
             <div class="line"></div>
             <div class="main-cycle cycle"></div>
-            <a href="#1" class="center-button services"><span>services</span></a>
-            <a href="#2" class="center-button prices"><span>prices</span></a>
-            <a href="#3" class="left-cycle cycle">about</a>
-            <a href="#4" class="right-cycle cycle">works</a>
+            <a href="#services" class="center-button services nav-cycle" data-article="services"><span>services</span></a>
+            <a href="#prices" class="center-button prices nav-cycle" data-article="prices"><span>prices</span></a>
+            <a href="#about" class="left-cycle cycle nav-cycle" data-article="about">about</a>
+            <a href="#works" class="right-cycle cycle nav-cycle" data-article="works">works</a>
             <div class="inner-cycle cycle">arche</div>
         </nav>
 
@@ -33,6 +33,7 @@
             <?php require_once('home.php') ?>
             <?php require_once('about.php') ?>
             <?php require_once('services.php') ?>
+            <?php require_once('works.php') ?>
         </div>
     </div>
 

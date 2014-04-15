@@ -1,27 +1,25 @@
 (function($) {
     App = {
-        nav: $('nav a'),
+        nav: $('nav a.nav-cycle'),
+        articles: $('article'),
+        animationTime: 400,
 
         init: function() {
-            this.checkWindowSize();
             this.initEvents();
         },
 
         initEvents: function() {
-            App.nav.hover(App.menuMouseOver, App.menuMouseOut);
-            $(window).resize(App.checkWindowSize);
+            App.nav.click(App.showPage);
         },
 
-        menuMouseOver: function() {
-            //$(this).addClass('active');
-        },
+        showPage: function() {
+            var selectedNav = $(this);
 
-        menuMouseOut: function() {
-            //$(this).removeClass('active');
-        },
+            $('.nav-cycle, article').removeClass('active');
+            selectedNav.addClass('active');
 
-        checkWindowSize: function() {
-
+            App.articles.hide();
+            $('article.' + selectedNav.data('article')).fadeIn(App.animationTime);
         }
     };
 
