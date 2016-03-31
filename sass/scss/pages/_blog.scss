@@ -1,4 +1,4 @@
-article.services {
+article.blog {
   width: 100%;
 
   .read-more {
@@ -17,7 +17,7 @@ article.services {
     }
   }
 
-  .services-line {
+  .blog-line {
     z-index: 0;
     position: absolute;
     left: 50%;
@@ -32,7 +32,7 @@ article.services {
     box-sizing: border-box;
   }
 
-  .services-line-hide {
+  .blog-line-hide {
     z-index: 0;
     height: $services-line-size / 2;
     width: $services-line-size;
@@ -60,7 +60,7 @@ article.services {
       font-size: 18px;
       font-family: $secondary-font;
 
-      .services-cycle {
+      .blog-cycle {
         position: absolute;
       }
 
@@ -68,7 +68,7 @@ article.services {
         left: 0;
         bottom: 0;
 
-        .services-cycle {
+        .blog-cycle {
           left: 52px;
           top: 12px;
         }
@@ -83,7 +83,7 @@ article.services {
         left: 120px;
         top: 8px;
 
-        .services-cycle {
+        .blog-cycle {
           left: 15px;
         }
       }
@@ -92,7 +92,7 @@ article.services {
         right: 120px;
         top: 8px;
 
-        .services-cycle {
+        .blog-cycle {
           right: 15px;
         }
       }
@@ -101,7 +101,7 @@ article.services {
         left: 248px;
         top: -45px;
 
-        .services-cycle {
+        .blog-cycle {
           left: 38px;
           top: 25px;
         }
@@ -111,7 +111,7 @@ article.services {
         right: -10px;
         bottom: 0;
 
-        .services-cycle {
+        .blog-cycle {
           left: -34px;
           top: 12px;
         }
@@ -123,7 +123,7 @@ article.services {
       }
 
       a:hover {
-        .services-cycle span {
+        .blog-cycle span {
           height: $services-cycle-inner-size;
           width: $services-cycle-inner-size;
           position: absolute;
@@ -138,7 +138,7 @@ article.services {
       }
     }
 
-    .services-cycle {
+    .blog-cycle {
       width: $services-cycle-size;
       height: $services-cycle-size;
       display: block;

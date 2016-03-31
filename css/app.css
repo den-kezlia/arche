@@ -570,17 +570,6 @@ article.home {
   article.home h2 {
     text-align: center;
     margin-top: 30px; }
-  article.home #blog-link {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    color: #008dde;
-    font-family: "Poiret One", cursive;
-    text-decoration: underline;
-    font-size: 24px; }
-    article.home #blog-link:hover {
-      text-decoration: none; }
 
 article.about {
   height: 100%; }
@@ -619,9 +608,9 @@ article.about {
       height: 143px;
       overflow: hidden; }
 
-article.services {
+article.blog {
   width: 100%; }
-  article.services .read-more {
+  article.blog .read-more {
     position: absolute;
     text-align: center;
     width: 100%;
@@ -631,9 +620,9 @@ article.services {
     font-size: 24px;
     top: 30px;
     text-decoration: underline; }
-    article.services .read-more:hover {
+    article.blog .read-more:hover {
       text-decoration: none; }
-  article.services .services-line {
+  article.blog .blog-line {
     z-index: 0;
     position: absolute;
     left: 50%;
@@ -646,7 +635,7 @@ article.services {
     border: 3px solid #272727;
     border-radius: 250px;
     box-sizing: border-box; }
-  article.services .services-line-hide {
+  article.blog .blog-line-hide {
     z-index: 0;
     height: 250px;
     width: 500px;
@@ -656,7 +645,7 @@ article.services {
     top: 50%;
     margin-left: -250px;
     box-sizing: border-box; }
-  article.services ul {
+  article.blog ul {
     position: absolute;
     z-index: 1;
     display: block;
@@ -666,47 +655,47 @@ article.services {
     top: 50%;
     margin-left: -310px;
     margin-top: -250px; }
-    article.services ul li {
+    article.blog ul li {
       position: absolute;
       font-size: 18px;
       font-family: "Poiret One", cursive; }
-      article.services ul li .services-cycle {
+      article.blog ul li .blog-cycle {
         position: absolute; }
-      article.services ul li.hosting {
+      article.blog ul li.hosting {
         left: 0;
         bottom: 0; }
-        article.services ul li.hosting .services-cycle {
+        article.blog ul li.hosting .blog-cycle {
           left: 52px;
           top: 12px; }
-        article.services ul li.hosting span.text {
+        article.blog ul li.hosting span.text {
           position: relative;
           right: 10px; }
-      article.services ul li.seo {
+      article.blog ul li.seo {
         left: 120px;
         top: 8px; }
-        article.services ul li.seo .services-cycle {
+        article.blog ul li.seo .blog-cycle {
           left: 15px; }
-      article.services ul li.design {
+      article.blog ul li.design {
         right: 120px;
         top: 8px; }
-        article.services ul li.design .services-cycle {
+        article.blog ul li.design .blog-cycle {
           right: 15px; }
-      article.services ul li.web {
+      article.blog ul li.web {
         left: 248px;
         top: -45px; }
-        article.services ul li.web .services-cycle {
+        article.blog ul li.web .blog-cycle {
           left: 38px;
           top: 25px; }
-      article.services ul li.copyright {
+      article.blog ul li.copyright {
         right: -10px;
         bottom: 0; }
-        article.services ul li.copyright .services-cycle {
+        article.blog ul li.copyright .blog-cycle {
           left: -34px;
           top: 12px; }
-        article.services ul li.copyright span.text {
+        article.blog ul li.copyright span.text {
           position: relative;
           left: 10px; }
-      article.services ul li a:hover .services-cycle span {
+      article.blog ul li a:hover .blog-cycle span {
         height: 27.81211px;
         width: 27.81211px;
         position: absolute;
@@ -717,7 +706,7 @@ article.services {
         margin-top: -13.90606px;
         transition: background 0.2s;
         border-radius: 13.90606px; }
-    article.services ul .services-cycle {
+    article.blog ul .blog-cycle {
       width: 45px;
       height: 45px;
       display: block;
@@ -725,7 +714,7 @@ article.services {
       background: #fff;
       border-radius: 22.5px;
       box-sizing: border-box; }
-    article.services ul a {
+    article.blog ul a {
       color: #272727; }
 
 article.works ul {
