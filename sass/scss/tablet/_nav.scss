@@ -32,7 +32,7 @@ $tablet-max-width: 1024px;
       position: absolute;
       top: $main-cycle-size / 2;
       margin-left: - ($line-width - $nav-size) / 2;
-      @include transform(rotate(-45deg));
+      transform: rotate(-45deg);
     }
   }
 
@@ -43,15 +43,15 @@ $tablet-max-width: 1024px;
     border: $cycle-border solid $primary-color;
     display: block;
     left: 50%;
-    @include box-sizing(border-box);
-    @include box-shadow($box-shadow);
+    box-sizing: border-box;
+    box-shadow: $box-shadow;
   }
 
   .main-cycle {
     width: $main-cycle-size;
     height: $main-cycle-size;
     margin-left: - $main-cycle-size / 2;
-    @include border-radius($main-cycle-radius);
+    border-radius: $main-cycle-radius;
   }
 
   .inner-cycle {
@@ -65,7 +65,7 @@ $tablet-max-width: 1024px;
     line-height: $inner-cycle-size;
     z-index: 1;
     border: none;
-    @include border-radius($inner-cycle-size / 2);
+    border-radius: $inner-cycle-size / 2;
   }
 
   .left-cycle,
@@ -74,7 +74,7 @@ $tablet-max-width: 1024px;
     height: $sub-cycle-size;
     top: ($main-cycle-size - $sub-cycle-size) / 2;
     line-height: $sub-cycle-size;
-    @include border-radius($sub-cycle-size / 2);
+    border-radius: $sub-cycle-size / 2;
   }
 
   .left-cycle {
@@ -96,7 +96,7 @@ $tablet-max-width: 1024px;
     background: $secondary-color;
     border: $cycle-border solid $primary-color;
     position: absolute;
-    @include border-radius($main-cycle-radius $main-cycle-radius 0 0);
+    border-radius: $main-cycle-radius $main-cycle-radius 0 0;
 
     span {
       display: block;
@@ -104,7 +104,7 @@ $tablet-max-width: 1024px;
     }
 
     &.prices {
-      @include border-radius(0 0 $main-cycle-radius $main-cycle-radius);
+      border-radius: 0 0 $main-cycle-radius $main-cycle-radius;
       top: $main-cycle-size / 2;
 
       span {

@@ -11,7 +11,7 @@ article.works {
 
     a:hover span {
       text-decoration: underline;
-      @include transition($underline-transition);
+      transition: $underline-transition;
     }
 
     span {
@@ -44,7 +44,7 @@ article.works {
       padding: 3px;
       border-radius: $works-img-size / 2;
       position: absolute;
-      @include box-sizing(border-box);
+      box-sizing: border-box;
     }
 
     &.left {
@@ -62,8 +62,8 @@ article.works {
             top: 53px;
             left: 169px;
             width: 126px;
-            @include transform-origin(0 0);
-            @include transform(rotate(14deg));
+            transform-origin: 0 0;
+            transform: rotate(14deg);
           }
 
           img {
@@ -91,8 +91,8 @@ article.works {
             top: 12px;
             left: 169px;
             width: 126px;
-            @include transform-origin(0 0);
-            @include transform(rotate(-14deg));
+            transform-origin: 0 0;
+            transform: rotate(-14deg);
           }
 
           img {
@@ -123,8 +123,8 @@ article.works {
             top: 53px;
             left: 0;
             width: 126px;
-            @include transform-origin(0 100%);
-            @include transform(rotate(-14deg));
+            transform-origin: 0 100%;
+            transform: rotate(-14deg);
           }
 
           img {
@@ -152,8 +152,8 @@ article.works {
             top: 12px;
             left: 0;
             width: 126px;
-            @include transform-origin(0 100%);
-            @include transform(rotate(14deg));
+            transform-origin: 0 100%;
+            transform: rotate(14deg);
           }
 
           img {

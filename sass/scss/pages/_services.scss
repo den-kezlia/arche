@@ -28,8 +28,8 @@ article.services {
     height: $services-line-size;
     background: #fff;
     border: 3px solid $secondary-color;
-    @include border-radius($services-line-size / 2);
-    @include box-sizing(border-box);
+    border-radius: $services-line-size / 2;
+    box-sizing: border-box;
   }
 
   .services-line-hide {
@@ -41,7 +41,7 @@ article.services {
     left: 50%;
     top: 50%;
     margin-left: - $services-line-size / 2;
-    @include box-sizing(border-box);
+    box-sizing: border-box;
   }
 
   ul {
@@ -132,8 +132,8 @@ article.services {
           top: 50%;
           margin-left: - $services-cycle-inner-size / 2;
           margin-top: - $services-cycle-inner-size / 2;
-          @include transition($nav-transition);
-          @include border-radius($services-cycle-inner-size / 2);
+          transition: $nav-transition;
+          border-radius: $services-cycle-inner-size / 2;
         }
       }
     }
@@ -144,8 +144,8 @@ article.services {
       display: block;
       border: 3px solid $secondary-color;
       background: #fff;
-      @include border-radius($services-cycle-size / 2);
-      @include box-sizing(border-box);
+      border-radius: $services-cycle-size / 2;
+      box-sizing: border-box;
     }
 
     a {

@@ -12,7 +12,7 @@ nav {
   a:hover,
   a.active {
     background: $primary-color;
-    @include transition($nav-transition);
+    transition: $nav-transition;
 
     &.cycle-home {
       background: none;
@@ -27,7 +27,7 @@ nav {
     position: absolute;
     top: $main-cycle-size / 2;
     margin-left: - ($line-width - $nav-size) / 2;
-    @include transform(rotate(-45deg));
+    transform: rotate(-45deg);
   }
 
   &#home {
@@ -44,15 +44,15 @@ nav {
   border: $cycle-border solid $primary-color;
   display: block;
   left: 50%;
-  @include box-sizing(border-box);
-  @include box-shadow($box-shadow);
+  box-sizing: border-box;
+  box-shadow: $box-shadow;
 }
 
 .main-cycle {
   width: $main-cycle-size;
   height: $main-cycle-size;
   margin-left: - $main-cycle-size / 2;
-  @include border-radius($main-cycle-radius);
+  border-radius: $main-cycle-radius;
 }
 
 .inner-cycle {
@@ -65,7 +65,7 @@ nav {
   line-height: $inner-cycle-size;
   z-index: 1;
   border: none;
-  @include border-radius($inner-cycle-size / 2);
+  border-radius: $inner-cycle-size / 2;
 
   &:hover {
     width: $inner-cycle-size + 5;
@@ -73,7 +73,7 @@ nav {
     margin-top: ($main-cycle-size - ( $inner-cycle-size + 5 )) / 2;
     margin-left: - ( $inner-cycle-size + 5 ) / 2;
     line-height: $inner-cycle-size + 5;
-    @include border-radius( ($inner-cycle-size + 5) / 2 );
+    border-radius: ($inner-cycle-size + 5) / 2;
   }
 
   a {
@@ -97,7 +97,7 @@ nav {
   height: $sub-cycle-size;
   top: ($main-cycle-size - $sub-cycle-size) / 2;
   line-height: $sub-cycle-size;
-  @include border-radius($sub-cycle-size / 2);
+  border-radius: $sub-cycle-size / 2;
 }
 
 .left-cycle {
@@ -119,7 +119,7 @@ nav {
   background: $secondary-color;
   border: $cycle-border solid $primary-color;
   position: absolute;
-  @include border-radius($main-cycle-radius $main-cycle-radius 0 0);
+  border-radius: $main-cycle-radius $main-cycle-radius 0 0;
 
   span {
     display: block;
@@ -128,7 +128,7 @@ nav {
 
   &.prices {
     top: $main-cycle-size / 2;
-    @include border-radius(0 0 $main-cycle-radius $main-cycle-radius);
+    border-radius: 0 0 $main-cycle-radius $main-cycle-radius;
 
     span {
       margin-top: 100px;

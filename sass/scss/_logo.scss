@@ -10,6 +10,6 @@ div.logo {
     line-height: $logo-size;
     font-family: $secondary-font;
     font-size: 18px;
-    @include border-radius($logo-size / 2);
+    border-radius: $logo-size / 2;
   }
 }

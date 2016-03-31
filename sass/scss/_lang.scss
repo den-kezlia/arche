@@ -21,8 +21,8 @@
     bottom: 0;
     z-index: 1;
     border: 1px solid $primary-color;
-    @include box-sizing(border-box);
-    @include border-radius($lang-size / 2);
+    box-sizing: border-box;
+    border-radius: $lang-size / 2;
 
     &.active {
       width: $lang-active-size;
@@ -31,7 +31,7 @@
       font-size: $lang-active-font-size;
       right: 0;
       z-index: 0;
-      @include border-radius($lang-active-size / 2);
+      border-radius: $lang-active-size / 2;
     }
 
     &:hover {
