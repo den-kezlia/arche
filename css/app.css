@@ -508,10 +508,10 @@ nav {
   .center-button span {
     display: block;
     margin-top: 15px; }
-  .center-button.prices {
+  .center-button.version {
     top: 140px;
     border-radius: 0 0 140px 140px; }
-    .center-button.prices span {
+    .center-button.version span {
       margin-top: 100px; }
 
 div.logo {
@@ -737,6 +737,11 @@ article.works ul {
         article.works ul.right li.bottom img {
           left: 98px; }
 
+article.version .ver {
+  position: absolute;
+  bottom: 0;
+  left: 0; }
+
 /* Tablet */
 @media only screen and (min-width: 641px) and (max-width: 1024px) {
   /* Menu */
@@ -818,10 +823,10 @@ article.works ul {
     .center-button span {
       display: block;
       margin-top: 15px; }
-    .center-button.prices {
+    .center-button.version {
       border-radius: 0 0 140px 140px;
       top: 140px; }
-      .center-button.prices span {
+      .center-button.version span {
         margin-top: 100px; } }
 
 /*# sourceMappingURL=app.css.map */
