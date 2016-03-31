@@ -741,6 +741,18 @@ article.version .ver {
   position: absolute;
   bottom: 0;
   left: 0; }
+article.version .post {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 248px;
+  text-align: center; }
+  article.version .post .title {
+    color: #008dde;
+    font-family: "Poiret One", cursive;
+    font-size: 24px; }
+  article.version .post img {
+    border-radius: 124px; }
 
 /* Tablet */
 @media only screen and (min-width: 641px) and (max-width: 1024px) {
