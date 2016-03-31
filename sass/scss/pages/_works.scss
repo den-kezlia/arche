@@ -73,12 +73,11 @@ article.works {
 
         &.middle {
           margin-top: 37px;
-          margin-left: 10px;;
 
           span.line {
             position: absolute;
             top: 37px;
-            left: 153px;
+            left: 163px;
             width: 30px;
           }
         }
@@ -111,8 +110,12 @@ article.works {
         display: block;
         height: 80px;
 
+        span.title {
+          float: right;
+        }
+
         &.top {
-          margin-left: 20px;
+          margin-right: 20px;
           margin-top: -10px;
 
           span.line {
@@ -131,7 +134,6 @@ article.works {
 
         &.middle {
           margin-top: 37px;
-          margin-left: 34px;
 
           span.line {
             position: absolute;
@@ -142,7 +144,7 @@ article.works {
         }
 
         &.bottom {
-          margin-left: 20px;
+          margin-right: 20px;
           margin-top: 37px;
 
           span.line {

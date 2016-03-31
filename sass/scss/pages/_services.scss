@@ -72,6 +72,11 @@ article.services {
           left: 52px;
           top: 12px;
         }
+
+        span.text {
+          position: relative;
+          right: 10px;
+        }
       }
 
       &.seo {
@@ -107,8 +112,13 @@ article.services {
         bottom: 0;
 
         .services-cycle {
-          left: -44px;
+          left: -34px;
           top: 12px;
+        }
+
+        span.text {
+          position: relative;
+          left: 10px;
         }
       }
 

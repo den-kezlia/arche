@@ -9,12 +9,18 @@ nav {
   margin-top: - $main-cycle-size / 2;
   font-family: $secondary-font;
 
-  a:hover {
+  a:hover,
+  a.active {
     background: $primary-color;
     @include transition($nav-transition);
+
+    &.cycle-home {
+      background: none;
+    }
   }
 
   .line {
+    display: none;
     height: 1px;
     width: $line-width;
     background: $primary-color;
@@ -22,6 +28,12 @@ nav {
     top: $main-cycle-size / 2;
     margin-left: - ($line-width - $nav-size) / 2;
     @include transform(rotate(-45deg));
+  }
+
+  &#home {
+    .line {
+      display: block;
+    }
   }
 }
 
@@ -54,6 +66,29 @@ nav {
   z-index: 1;
   border: none;
   @include border-radius($inner-cycle-size / 2);
+
+  &:hover {
+    width: $inner-cycle-size + 5;
+    height: $inner-cycle-size + 5;
+    margin-top: ($main-cycle-size - ( $inner-cycle-size + 5 )) / 2;
+    margin-left: - ( $inner-cycle-size + 5 ) / 2;
+    line-height: $inner-cycle-size + 5;
+    @include border-radius( ($inner-cycle-size + 5) / 2 );
+  }
+
+  a {
+    color: $secondary-color;
+    width: $inner-cycle-size;
+    height: $inner-cycle-size;
+    display: block;
+
+    &:hover {
+      background: none;
+      color: $secondary-color;
+      width: $inner-cycle-size + 5;
+      height: $inner-cycle-size + 5;
+    }
+  }
 }
 
 .left-cycle,

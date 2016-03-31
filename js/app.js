@@ -1,6 +1,6 @@
 (function($) {
     App = {
-        nav: $('nav a.nav-cycle'),
+        nav: $('nav a.nav-cycle, nav a.cycle-home'),
         articles: $('article'),
         animationTime: 400,
 
@@ -20,6 +20,7 @@
 
             App.articles.hide();
             $('article.' + selectedNav.data('article')).fadeIn(App.animationTime);
+            $('nav').attr('id', selectedNav.data('article'));
         }
     };
 

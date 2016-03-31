@@ -1,5 +1,5 @@
 <article class="services">
-    <a href="#" class="read-more">Read more detail</a>
+    <a href="#" class="read-more">Детальнее о наших услугах</a>
 
     <div class="info">
         <div class="services-line"></div>
@@ -7,7 +7,7 @@
         <ul>
             <li class="hosting">
                 <a href="#">
-                    <span class="text">hosting</span>
+                    <span class="text">хостинг</span>
                     <span class="services-cycle"><span></span></span>
                 </a>
             </li>
@@ -19,19 +19,19 @@
             </li>
             <li class="web">
                 <a href="#">
-                    <span class="text">web development</span>
+                    <span class="text">веб разработка</span>
                     <span class="services-cycle"><span></span></span>
                 </a>
             </li>
             <li class="design">
                 <a href="#">
-                    <span class="text">design</span>
+                    <span class="text">дизайн</span>
                     <span class="services-cycle"><span></span></span>
                 </a>
             </li>
             <li class="copyright">
                 <a href="#">
-                    <span class="text">copyright</span>
+                    <span class="text">копирайт</span>
                     <span class="services-cycle"><span></span></span>
                 </a>
             </li>

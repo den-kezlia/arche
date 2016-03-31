@@ -58,6 +58,7 @@ ul, li {
 
   article {
     display: none;
+    @include box-sizing(border-box);
 
     &.active {
       display: block;

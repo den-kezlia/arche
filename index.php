@@ -3,7 +3,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/app.css" />
-    <link href='http://fonts.googleapis.com/css?family=Bubbler+One' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Poiret+One|Forum&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <title>Arche</title>
 </head>
 <body>
@@ -12,21 +12,23 @@
             <a class="logo" href="#">logo</a>
         </div>
 
-        <div class="lang">
+        <!--<div class="lang">
             <ul>
                 <li><a href="#" class="ru">ru</a></li>
                 <li><a href="#" class="en active">en</a></li>
             </ul>
-        </div>
+        </div>-->
 
-        <nav>
+        <nav id="home">
             <div class="line"></div>
             <div class="main-cycle cycle"></div>
-            <a href="#services" class="center-button services nav-cycle" data-article="services"><span>services</span></a>
-            <a href="#prices" class="center-button prices nav-cycle" data-article="prices"><span>prices</span></a>
-            <a href="#about" class="left-cycle cycle nav-cycle" data-article="about">about</a>
-            <a href="#works" class="right-cycle cycle nav-cycle" data-article="works">works</a>
-            <div class="inner-cycle cycle">arche</div>
+            <a href="#services" class="center-button services nav-cycle" data-article="services"><span>Услуги</span></a>
+            <a href="#prices" class="center-button prices nav-cycle" data-article="prices"><span>Цены</span></a>
+            <a href="#about" class="left-cycle cycle nav-cycle" data-article="about">О нас</a>
+            <a href="#works" class="right-cycle cycle nav-cycle" data-article="works">Работы</a>
+            <div class="inner-cycle cycle">
+                <a href="#home" class="cycle-home" data-article="home">arche</a>
+            </div>
         </nav>
 
         <div class="articles">
