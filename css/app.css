@@ -622,100 +622,12 @@ article.blog {
     text-decoration: underline; }
     article.blog .read-more:hover {
       text-decoration: none; }
-  article.blog .blog-line {
-    z-index: 0;
+  article.blog .post {
     position: absolute;
-    left: 50%;
-    top: 50%;
-    margin-left: -250px;
-    margin-top: -250px;
+    top: 80px;
     width: 500px;
-    height: 500px;
-    background: #fff;
-    border: 3px solid #272727;
-    border-radius: 250px;
-    box-sizing: border-box; }
-  article.blog .blog-line-hide {
-    z-index: 0;
-    height: 250px;
-    width: 500px;
-    position: absolute;
-    background: #fff;
     left: 50%;
-    top: 50%;
-    margin-left: -250px;
-    box-sizing: border-box; }
-  article.blog ul {
-    position: absolute;
-    z-index: 1;
-    display: block;
-    width: 620px;
-    height: 160px;
-    left: 50%;
-    top: 50%;
-    margin-left: -310px;
-    margin-top: -250px; }
-    article.blog ul li {
-      position: absolute;
-      font-size: 18px;
-      font-family: "Poiret One", cursive; }
-      article.blog ul li .blog-cycle {
-        position: absolute; }
-      article.blog ul li.hosting {
-        left: 0;
-        bottom: 0; }
-        article.blog ul li.hosting .blog-cycle {
-          left: 52px;
-          top: 12px; }
-        article.blog ul li.hosting span.text {
-          position: relative;
-          right: 10px; }
-      article.blog ul li.seo {
-        left: 120px;
-        top: 8px; }
-        article.blog ul li.seo .blog-cycle {
-          left: 15px; }
-      article.blog ul li.design {
-        right: 120px;
-        top: 8px; }
-        article.blog ul li.design .blog-cycle {
-          right: 15px; }
-      article.blog ul li.web {
-        left: 248px;
-        top: -45px; }
-        article.blog ul li.web .blog-cycle {
-          left: 38px;
-          top: 25px; }
-      article.blog ul li.copyright {
-        right: -10px;
-        bottom: 0; }
-        article.blog ul li.copyright .blog-cycle {
-          left: -34px;
-          top: 12px; }
-        article.blog ul li.copyright span.text {
-          position: relative;
-          left: 10px; }
-      article.blog ul li a:hover .blog-cycle span {
-        height: 27.81211px;
-        width: 27.81211px;
-        position: absolute;
-        background: #000;
-        left: 50%;
-        top: 50%;
-        margin-left: -13.90606px;
-        margin-top: -13.90606px;
-        transition: background 0.2s;
-        border-radius: 13.90606px; }
-    article.blog ul .blog-cycle {
-      width: 45px;
-      height: 45px;
-      display: block;
-      border: 3px solid #272727;
-      background: #fff;
-      border-radius: 22.5px;
-      box-sizing: border-box; }
-    article.blog ul a {
-      color: #272727; }
+    margin-left: -250px; }
 
 article.works ul {
   position: absolute;
