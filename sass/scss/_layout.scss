@@ -11,6 +11,10 @@ body {
   line-height: $line-height;
 }
 
+iframe {
+  border: none;
+}
+
 h1, h2, h3 {
   font-family: $secondary-font;
 }

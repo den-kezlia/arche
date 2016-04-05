@@ -362,6 +362,9 @@ body {
   font-family: "Forum", cursive;
   line-height: 24px; }
 
+iframe {
+  border: none; }
+
 h1, h2, h3 {
   font-family: "Poiret One", cursive; }
 
