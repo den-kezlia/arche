@@ -374,7 +374,7 @@ h1 {
   line-height: 48px; }
 
 h2 {
-  font-size: 24px;
+  font-size: 22px;
   line-height: 36px; }
 
 a, a:hover {
@@ -566,7 +566,7 @@ div.logo {
 /* Pages */
 article.home {
   height: 100%;
-  padding-top: 38px; }
+  padding-top: 18px; }
   article.home h1 {
     text-align: center;
     margin-top: 0; }
